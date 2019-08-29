@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="register-container">
+    <form bindsubmit="formSubmit">
+        <view class="section">
+            <!-- <image src="/assets/images/account.png" class="image" />
+    <view class='fgx' ></view>  -->
+            <!-- 分割线 -->
+            <input class="input verification" name="command" placeholder="请输入开锁命令" placeholder-class="input-placeholder" bindinput="command" />
+
+        </view>
+        <view class='fgx1'></view>
+        <!-- 分割线 -->
+
+        <view style='color:#238BFE' class="next-btn">
+            <!-- <navigator url="../home/home">  -->
+            <button size="default" plain="false" class="next-btn1" formType="submit" bindtap='unlock'> 开锁 </button>
+            <!-- </navigator>    -->
+        </view>
+    </form>
+</view>

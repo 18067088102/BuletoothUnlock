@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="track-bg">
+        <image class="logo" src="/assets/images/img_logo1.png" mode="widthFix"></image>
+        <!-- <view class="track-input-block">
+      <icon type="search" size="15" color="purple" />
+      <input class="track-input" placeholder="请输入背包编号"  value="{{pNameTxt}}" />
+      <image src="/assets/images/scan.png" mode="widthFix" class="i-scan" bindtap="scanNumber"></image>
+    </view> -->
+    </view>
+
+    <view class="track-history">
+        <view class="track-history-empty-btn">
+            <view style='color:#238BFE' class="next-btn">
+                <button size="default" plain="false" class="next-btn" formType="submit" bindtap='scanNumber'> 一键开锁 </button>
+            </view>
+        </view>
+
+        <!-- <view class="track-history-empty-btn">
+            <view style='color:#238BFE' class="next-btn">
+                <button size="default" plain="false" class="next-btn" formType="submit" bindtap='manualUnlocking'> 手动开锁 </button>
+            </view>
+        </view> -->
+
+        <view class='track-input1'>备注：如果多次开锁失败，请电话联系后台工作人员告知机箱编号获取开锁密码。</view>
+        <view class='track-input-phone'>联系电话：0556-12341234</view>
+
+    </view>
+</view>

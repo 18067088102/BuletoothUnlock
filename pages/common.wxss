@@ -1,0 +1,64 @@
+/* pages/register/register.wxss */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20rpx;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f6f6f8;
+    width: 670rpx;
+    height: 100rpx;
+    margin: 60rpx 40rpx 0 40rpx;
+    border-radius: 5px;
+}
+
+.head-image {
+    width: 44rpx;
+    height: 44rpx;
+    margin-left: 20rpx;
+}
+
+.input {
+    margin: 0 30rpx;
+    width: 476rpx;
+}
+
+.input-placeholder {
+    font-size: 32rpx;
+    font-weight: 400;
+    color: #a9a9a8;
+}
+
+.eye-image {
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 30rpx;
+}
+
+.login-view {
+    width: 670rpx;
+    height: 100rpx;
+    margin: 100rpx 40rpx 0 40rpx;
+    border-radius: 5px;
+    background-color: #4a89ff;
+}
+
+.login-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid #4a89ff !important;
+    color: #fff !important;
+    font-size: 36rpx;
+}

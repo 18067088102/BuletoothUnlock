@@ -1,0 +1,14 @@
+@import "../common.wxss";
+
+.freeRegister {
+    margin-left: 40rpx;
+    margin-top: 30rpx;
+    background: none !important;
+    color: #4a89ff !important;
+    font-size: 28rpx;
+    font-weight: 400;
+}
+
+.freeRegister::after{
+    border: none;
+}

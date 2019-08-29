@@ -1,0 +1,21 @@
+<view class='login-container'>
+    <form bindsubmit='formSubmit'>
+        <view class='sub-container'>
+            <image class='head-image' src='/assets/images/user.png'></image>
+            <input class="input verification" name="username" placeholder="请输入用户名" placeholder-class="input-placeholder" bindinput="usernameInput" />
+        </view>
+        <view class='sub-container'>
+            <image class='head-image' src='/assets/images/psw.png'></image>
+            <input class="input phone" password='{{eyedFirst}}' name="password" placeholder="请输入密码" placeholder-class="input-placeholder" maxlength='6' bindinput='passwordInput' />
+            <image class='eye-image' src='/assets/images/eye.png' bind:tap="onEyeFirst"></image>
+        </view>
+        <view class='sub-container'>
+            <image class='head-image' src='/assets/images/psw.png'></image>
+            <input class="input phone" password='{{eyedSecond}}' name="password" placeholder="请确认密码" placeholder-class="input-placeholder" maxlength='6' bindinput='passwordSureInput' />
+            <image class='eye-image' src='/assets/images/eye.png' bind:tap="onEyeSecond"></image>
+        </view>
+        <view class='login-view'>
+            <button size="default" plain="false" class="login-btn" formType="submit">注册</button>
+        </view>
+    </form>
+</view>

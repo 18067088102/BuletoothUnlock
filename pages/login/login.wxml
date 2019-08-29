@@ -1,0 +1,17 @@
+<view class='login-container'>
+    <form bindsubmit='formSubmit'>
+        <view class='sub-container'>
+            <image class='head-image' src='/assets/images/user.png'></image>
+            <input class="input verification" name="username" placeholder="请输入用户名" placeholder-class="input-placeholder" bindinput="usernameInput" />
+        </view>
+        <view class='sub-container'>
+            <image class='head-image' src='/assets/images/psw.png'></image>
+            <input class="input phone" password='{{eyed}}' name="password" placeholder="请输入密码" placeholder-class="input-placeholder" maxlength='6' bindinput='passwordInput' />
+            <image class='eye-image' src='/assets/images/eye.png' bind:tap="onEye"></image>
+        </view>
+        <view class='login-view'>
+            <button size="default" plain="false" class="login-btn" formType="submit">登录</button>
+        </view>
+    </form>
+    <button class='freeRegister' bindtap='goToRegister'>免费注册</button>
+</view>
